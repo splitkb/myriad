@@ -1,0 +1,65 @@
+name: Request a Vendor ID
+description: Request a Vendor ID
+title: "[VID]: "
+labels: ["vid-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Vendor ID request form!
+
+  - type: dropdown
+    id: what
+    attributes:
+      label: What are you?
+      description: Which of these describes you best?
+      options:
+        - Vendor / Distributor
+        - Designer - Professional/Contracted
+        - Designer - Hobbyist
+    validations:
+      required: true
+
+  - type: input
+    id: who
+    attributes:
+      label: Who are you?
+      description: For who are you requesting a Vendor ID?
+      placeholder: Myriad Inc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: available
+    attributes:
+      label: Can we buy it?
+      description: Are any of your designs (Myriad or not) currently available for sale?
+      options:
+        - "Yes"
+        - "No, but they will be in the near future"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Where can we find you?
+      description: Do you have a URL where we can find you?
+      placeholder: https://myriad.local
+
+  - type: input
+    id: preference
+    attributes:
+      label: Preferred VID value
+      description: Do you have a preferred four-letter hex value for your VID? If none provided, we will randomly assign one.
+      placeholder: "0xFFFF"
+
+  - type: checkboxes
+    attributes:
+      label: Terms of Use
+      description: The Terms of Use allow us to ensure the Myriad ecosystem remains cohesive and consistent. We require
+        that everyone agrees to them.
+      options:
+        - label: I agree to follow the Myriad project's [Terms of Use](https://myriad.splitkb.com/specification/terms_of_use.html)
+          required: true
