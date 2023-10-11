@@ -19,7 +19,7 @@ Myriad cards, like all other M.2 cards, have a physical "notch" preventing the i
 ## Card edge
 In order to allow insertion, the card must be 0.80mm (± 0.08mm) thick. ENIG finish is strongly recommended for durability. Contrary to the M.2 specification, a card edge bevel is not required.
 
-For card edge pads and cutout dimensions, please see Figure 16 through 18 of the [M.2 specification](/assets/pdf/m2_spec.pdf) (pages 39-41). We recommend using our pre-existing [footprints](design.html#resources) to avoid having to manually copy this.
+For card edge pads and cutout dimensions, please see Figure 16 through 18 of the [M.2 specification](/assets/pdf/m2_spec.pdf) (pages 39-41). We recommend using our pre-existing [footprints](/design.html#resources) to avoid having to manually copy this.
 
 ## Card dimensions
 ![Card dimensions](/assets/images/card_dimensions.png)
@@ -66,4 +66,4 @@ Keyboards may use connectors shorter than 4.20mm - but that makes finding stando
 ## Mounting Hardware
 If you are designing your own keyboard, we recommend the TE Connectivity [2199230-8](https://octopart.com/2199230-8-te+connectivity-46436158) ([datasheet](/assets/pdf/socket_datasheet.pdf)) connector  and Wurth Elektronik [9774025151R](https://octopart.com/9774025151r-wurth+elektronik-59774856) ([datasheet](/assets/pdf/standoff_datasheet.pdf)) standoffs, but any compatible ones will do.
 
-Footprints are provided in our [repository](design.html#resources).
+Footprints are provided in our [repository](/design.html#resources).

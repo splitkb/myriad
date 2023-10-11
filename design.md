@@ -11,7 +11,7 @@ The Myriad system is exhaustively described in [the specifications](specificatio
 In order to save you some time, we have already created the necessary KiCad footprints and symbols for you.
 
 ## Symbols
-The KiCad symbols can be find in [this folder](https://github.com/splitkb/myriad/assets/kicad/symbols)
+The KiCad symbols can be find in [this folder](https://github.com/splitkb/myriad/tree/main/assets/kicad/symbols)
 
 ## Footprints
-The KiCad footprints can be found in [this folder](https://github.com/splitkb/myriad/assets/kicad/footprints)
+The KiCad footprints can be found in [this folder](https://github.com/splitkb/myriad/tree/main/assets/kicad/footprints)
