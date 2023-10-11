@@ -29,7 +29,7 @@ Controller modules are not required to supply 5V to the keyboard: the keyboard i
 ## Raw
 Direct power from the USB connector, used for things like battery charging.
 
-A module can **passively** measure the voltage on the two CC pins to determine roughly how much power can be drawn. The highest voltage determines the maximum current allowed:
+A module can **passively** measure the voltage on the two [CC pins](pinout.html#usb) to determine roughly how much power can be drawn. The highest voltage determines the maximum current allowed:
 
 |Voltage      |Allowed current|
 |-------------|---------------|

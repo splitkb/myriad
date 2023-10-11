@@ -2,7 +2,6 @@
 layout: default
 title: Features
 nav_order: 2
-
 ---
 
 Myriad has the following features:
