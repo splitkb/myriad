@@ -50,9 +50,9 @@ This entry **must** be present!
 | Length | Format | Description |
 |--------|--------|-------------|
 | 1 | `0x01` | Entry type identifier.
-| 1 | `0x03` | Data length in bytes.
-| 1 | uint8 | [Vendor ID](vendor_ids.html).
-| 1 | uint8 | Product ID.
+| 1 | `0x05` | Data length in bytes.
+| 2 | uint16 | [Vendor ID](vendor_ids.html).
+| 2 | uint16 | Product ID.
 | 1 | uint8 | Product revision.
 
 Assignment of Product ID and revision is left to each individual vendor. However, the combination of Product ID and revision **must** uniquely identify a distinct product. If two products have the same ID and revision, they must be fully interchangeable both electronically and from software.
