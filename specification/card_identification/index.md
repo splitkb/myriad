@@ -16,6 +16,13 @@ The EEPROM chips use 2kb pages, with the 3 LSBs of the device address used for p
 
 Write protection is allowed, but not mandatory.
 
+# Endianness
+
+![Little endian byte ordering](/assets/images/endianness.png)  
+*[CC BY-SA: Wikipedia, User:Aeroid](https://en.wikipedia.org/wiki/Endianness#/media/File:32bit-Endianess.svg)*
+
+All data is stored little-endian. This means that the uint16 `33825` (`0x8421`) is stored as `[0x21, 0x84]`. This aligns with how most modern CPU & MCU architectures store their data internally, making it trivial to cast data to a struct.
+
 # Header
 
 | Length | Format | Description |
